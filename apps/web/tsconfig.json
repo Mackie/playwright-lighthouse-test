@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "composite": false,
+    //"strict": true,
+    "declaration": false,
+    "declarationMap": false,
+    "strict": false,
+    "target": "es5",
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": false,
+    //"moduleResolution": "node",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "preserveWatchOutput": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}
+
+// "plugins": [{ "name": "next" }],
+//         "declaration": false,
+//         "declarationMap": false,
+//         "strict": false,
+//         "target": "es5"
+
+// {
+//     "$schema": "https://json.schemastore.org/tsconfig",
+//     "display": "Default",
+//     "compilerOptions": {
+//         "composite": false,
+//
+//         "forceConsistentCasingInFileNames": true,
+//         "inlineSources": false,
+//         "moduleResolution": "node",
+//         "noUnusedLocals": false,
+//         "noUnusedParameters": false,
+//         "preserveWatchOutput": true,
+//         "skipLibCheck": true,
+//         "strict": true,
+//         "strictNullChecks": true
+//     },
+//     "exclude": ["node_modules"]
+// }
